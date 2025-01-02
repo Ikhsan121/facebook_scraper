@@ -33,5 +33,8 @@ A Python-based web scraping tool to automate the extraction of detailed profile 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/facebook-profile-scraper.git
-   cd facebook-profile-scraper
+   git clone https://github.com/Ikhsan121/facebook_scraper.git
+   cd facebook_scraper
+2. **Install Dependencies**:
+   ```bash
+   pip install requirements.txt
