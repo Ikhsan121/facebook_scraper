@@ -50,11 +50,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 PHONE_NUMBER=your_phone_number
 PASSWORD=your_password
 ```
-5.Verify Playwright Installation: If you’re using Playwright for dynamic scraping, ensure that browsers are installed:
-```bash
-playwright install
-```
-6.Run the Application: For the first-time login, execute:
+5.Run the Application: For the first-time login, execute:
 ```bash
 python main.py
 ```
