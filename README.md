@@ -35,6 +35,19 @@ A Python-based web scraping tool to automate the extraction of detailed profile 
    ```bash
    git clone https://github.com/Ikhsan121/facebook_scraper.git
    cd facebook_scraper
-2. **Install Dependencies**:
+   ```
+2.Create a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+3. **Install Dependencies**:
    ```bash
-   pip install requirements.txt
+   pip install -r requirements.txt
+   ```
+4.Set Up Environment Variables: Configure your credentials for login by creating a .env file in the root directory. Add the following variables:
+```makefile
+PHONE_NUMBER=your_phone_number
+PASSWORD=your_password
+```
+
