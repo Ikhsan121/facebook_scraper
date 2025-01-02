@@ -31,7 +31,7 @@ A Python-based web scraping tool to automate the extraction of detailed profile 
 
 ## **Installation**
 
-1. **Clone the Repository**:
+1.**Clone the Repository**:
    ```bash
    git clone https://github.com/Ikhsan121/facebook_scraper.git
    cd facebook_scraper
@@ -49,5 +49,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```makefile
 PHONE_NUMBER=your_phone_number
 PASSWORD=your_password
+```
+5.Verify Playwright Installation: If you’re using Playwright for dynamic scraping, ensure that browsers are installed:
+```bash
+playwright install
+```
+6.Run the Application: For the first-time login, execute:
+```bash
+python main.py
 ```
 
